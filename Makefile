@@ -1,10 +1,9 @@
 ###############################################################################
-# The build script for petehouston/docker-alpine-php-composer image
+# The build script for jeromeerasmus/docker-alpine-php-composer image
 #
-# @image 		petehouston/docker-alpine-php-composer
-# @author 		Pete Houston <contact@petehouston.com>
-# @github 		https://github.com/petehouston/docker-alpine-php-composer/
-# @dockerhub 	https://hub.docker.com/r/petehouston/docker-alpine-php-composer/
+# @image 		jeromeerasmus/docker-alpine-php-composer
+# @github 		https://github.com/jeromeerasmus/docker-alpine-php-composer/
+# @dockerhub 	https://hub.docker.com/r/jeromeerasmus/docker-alpine-php-composer/
 #
 ###############################################################################
 

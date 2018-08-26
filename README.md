@@ -1,12 +1,12 @@
 # Docker Alpine PHP with Composer
 
-[![](https://imagelayers.io/badge/petehouston/docker-alpine-php-composer:latest.svg)](https://imagelayers.io/?images=petehouston/docker-alpine-php-composer:latest 'Get your own badge on imagelayers.io')
+[![](https://imagelayers.io/badge/jeromeerasmus/docker-alpine-php-composer:latest.svg)](https://imagelayers.io/?images=jeromeerasmus/docker-alpine-php-composer:latest 'Get your own badge on imagelayers.io')
 
-[![nodesource/node](http://dockeri.co/image/petehouston/docker-alpine-php-composer)](https://registry.hub.docker.com/u/petehouston/docker-alpine-php-composer/)
+[![nodesource/node](http://dockeri.co/image/jeromeerasmus/docker-alpine-php-composer)](https://registry.hub.docker.com/u/jeromeerasmus/docker-alpine-php-composer/)
 
 A very small Docker image to bootstrap your PHP development.
 
-This Docker image is based on [petehouston/docker-alpine-php](https://github.com/petehouston/docker-alpine-php) but with [Composer](getcomposer.org) supported.
+This Docker image is based on [jeromeerasmus/docker-alpine-php](https://github.com/jeromeerasmus/docker-alpine-php) but with [Composer](getcomposer.org) supported.
 
 ### Support Versions
 
@@ -21,13 +21,13 @@ Following PHP versions are supported,
 First, pull to your local development machine,
 
 ```
-$ docker pull petehouston/docker-alpine-php-composer
+$ docker pull jeromeerasmus/docker-alpine-php-composer
 ```
 
 Then run the `composer` command in the mount directory
 
 ```
-$ docker run --rm -v $(pwd):/home -w /home petehouston/docker-alpine-php-composer:5.6 composer require phpunit/phpunit
+$ docker run --rm -v $(pwd):/home -w /home jeromeerasmus/docker-alpine-php-composer:5.6 composer require phpunit/phpunit
 ```
 
 ### Build
@@ -51,3 +51,6 @@ The test suite is located in [tests/index.sh](tests/index.sh).
 ### Notes
 
 Please share your words if any. Always welcome :)
+
+### Forked From
+https://github.com/petehouston/docker-alpine-php-composer

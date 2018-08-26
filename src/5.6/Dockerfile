@@ -1,6 +1,6 @@
 FROM jeromeerasmus/docker-alpine-php:5.6
 
-MAINTAINER Pete Houston <contact@petehouston.com>
+MAINTAINER Jerome Erasmus
 
 RUN wget https://getcomposer.org/download/1.1.1/composer.phar -O composer \
     && mv composer /usr/bin/composer \
