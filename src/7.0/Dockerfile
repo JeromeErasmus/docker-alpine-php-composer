@@ -8,4 +8,8 @@ RUN wget https://getcomposer.org/download/1.1.1/composer.phar -O composer \
 
 CMD composer self-update
 
+CMD apk --update && apk update
+
+CMD apk add --no-cache jq
+
 CMD ["/usr/bin/composer"]
